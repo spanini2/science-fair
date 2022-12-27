@@ -18,7 +18,7 @@ if not success:
 fgbg = cv2.createBackgroundSubtractorMOG2()
 
 # Set the lower and upper bounds for the yellow color range (HSV color space)
-yellow_lower = (50, 200, 200) #0,100,100
+yellow_lower = (50, 200, 200)
 yellow_upper = (0, 250, 250)
 
 while success:
